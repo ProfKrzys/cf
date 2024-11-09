@@ -1,3 +1,5 @@
+import sys
+sys.path.append("/data/data/com.termux/files/usr/lib/python3.12/site-packages")
 from patchright.async_api import async_playwright
 from quart import Quart, request, jsonify
 import asyncio
